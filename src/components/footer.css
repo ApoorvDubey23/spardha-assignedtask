@@ -5,6 +5,7 @@
 	align-items: center;
 }
 .footer {
+	margin-top: 2vh;
 	display: flex;
 	gap: 4vw;
 	justify-content: center;
@@ -19,10 +20,11 @@
 }
 .info {
 	text-align: center;
+
 }
 .info1 {
 	font-weight: 600;
-	font-size: 3vh;
+	font-size: 2vw;
 }
 .info2 {
 	font-weight: 700;
@@ -33,7 +35,7 @@
 }
 .info3 {
 	font-weight: 600;
-	font-size: 1vh;
+	font-size: 1vw;
 }
 .logo1 {
 	display: flex;
@@ -43,4 +45,7 @@
 	color: red;
 	font-weight: 700;
 	font-size: 2vh;
+}
+@media(max-width:900px){
+	.info2{	font-size: 2vh;}
 }
