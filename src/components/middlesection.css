@@ -121,8 +121,13 @@ height: 20vh;
 
 	}
 	.card{
-		height: 10vh;
+		height:fit-content;
+	
 	}
+	.ctext{	height: fit-content;
+	display: flex;
+justify-content: center;
+align-items: center;}
 	.cdate{
 		font-size: 5vh;
 	}
