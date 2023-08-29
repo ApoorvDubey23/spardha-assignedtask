@@ -46,6 +46,24 @@
 	font-weight: 700;
 	font-size: 2vh;
 }
-@media(max-width:900px){
-	.info2{	font-size: 2vh;}
+@media(max-width:1000px){
+	.footbox {
+		width: 100vw;
+		display: flex;
+		color: white;
+		justify-content: center;
+		align-items: center;
+	}
+	.info1{
+		font-size: 2vh;
+	}
+	.info2{	font-size: 2.5vh;}
+	.footer{
+		width: 95vw;
+		max-width: 600px;
+	}
+	.info3{
+		margin: 0.5vh;
+		font-size: 1.2vh;
+	}
 }

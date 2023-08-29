@@ -8,6 +8,7 @@ import Foot from './components/footer';
 
 
 function App() {
+  
   return (
     <div>
       <section className='sctn'>
